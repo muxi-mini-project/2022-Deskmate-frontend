@@ -1,0 +1,132 @@
+.header{
+    display: flex;
+    background-color: #8cccb9;
+    height: 190px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.back{
+    margin-top: 98px;
+    margin-left: 60px;
+    margin-right: 150px;
+}
+.back image{
+    width: 50px;
+    height: 50px;
+}
+.title{
+    margin-top: 20px;
+    text-align: center;
+}
+.nickname{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 42px;
+    color: #ffffff;
+}
+.day{
+    margin-top: 6px;
+    font-size: 28px;
+    color: #ffffff;
+}
+.main-1{
+    display: flex;
+    margin: 20px;
+}
+.more{
+    position: absolute;
+    font-size: medium;
+    bottom: 0px;
+    right: 5px;
+    z-index: 10;
+    color: #ffffff;
+}
+
+.main-2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+}
+.time{
+    color: #a4c3b9;
+    text-align: center;
+    font-size: small;
+}
+.portrait{
+    background-color: #8cccb9;
+    border-radius: 50%;
+    width: 108px;
+    height: 108px;
+}
+.dropdown{
+    position: absolute;
+    right: 0px;
+    font-size: 26px;
+    width: 200px;
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+.option{
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px;
+}
+.over{
+    color: red;
+}
+.one{
+    margin-left: 32px;
+    margin-right: 38px;
+}
+.two{
+    margin-left: 38px;
+    margin-right: 32px;
+}
+.content{
+    background-color: #b9d8cf;
+    border-radius: 40px;
+    width: 552px;
+    padding: 20px;
+}
+.word{
+    color: #5b7c73;
+    margin-left: 15px;
+}
+.small{
+    font-size: medium;
+}
+.littlecircle{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #55766d;
+    position: absolute;
+    top: 45%;
+}
+.message{
+    position: relative;
+    display: flex;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    
+}
+.put{
+    width: 600px;
+    border: 2px solid #8cccba;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-left: 5px;
+    /* position: fixed; */
+}
+.picture{
+    margin-bottom: 5px;
+}
+.picture image{
+    width: 60px;
+    height: 60px;
+}
